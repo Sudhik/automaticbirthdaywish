@@ -3,7 +3,7 @@ function sendBirthdayWish()
   var ss = SpreadsheetApp.openByUrl("https://docs.google.com/spreadsheets/d/1YeRU4UabaBcMUjA2SApQXksT-x_bXbVxHOjL-2-P16E/edit#gid=1716476145");
   var sheet = ss.getActiveSheet();
   var lastRow = ss.getLastRow();
-  var templateId = '18hFJF96wET1hJHoMWOE4k8c_IwpXo5y9oL2pboMktf0';
+  var templateId = '18hFJF96wEJHoMWOE4k8c_IwpXo5y9oL2pboMktf0';
   var current_date = new Date();
   var i=2;
   var current_date = Utilities.formatDate(new Date(), 'GMT','MMMM-dd-yyyy');
